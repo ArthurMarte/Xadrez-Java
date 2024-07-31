@@ -3,6 +3,7 @@ package application;
 import chess.ChessPiece;
 import chess.Color;
 import java.awt.*;
+import java.util.Scanner;
 
 public class UI {
 
@@ -56,4 +57,7 @@ public class UI {
         }
         System.out.print(" ");
     }
+
+
+
 }

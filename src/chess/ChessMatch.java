@@ -23,6 +23,11 @@ public class ChessMatch {
     }
 
 
+    private void placeNewPiece(char column, int row, ChessPiece piece){
+        board.placePiece(piece, new ChessPosition(column, row).toPosition());
+    }
+
+
     private void init(){
         for(int i=1; i< 2; i++){
             for(int j=0; j<getPieces().length; j++){
